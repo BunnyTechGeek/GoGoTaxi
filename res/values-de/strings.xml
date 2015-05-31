@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+ **
+ * @author Vinay Arora 
+ * @Dated 12 Sept 2014 Version 1.0
+ * @description data is file containing data related to the Application
+ * 
+ * 
+ *
+-->
+<!--
+ 	FILE RELATED INFORMATION
+
+To change a character 
+     	suppose we wanted to change "Book Your Cab" to "Book My Cab" 
+     		we can do by simply replacing Book Your Cab with Book My Cab
+
+-->
+<resources>
+
+    <!-- Strings Related to the Application -->
+    <string name="app_name"> Buchen Sie Ihre Kabine</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="distance_sd">0 Km</string>
+    
+    <!--   Slide Menu Row item  -->
+    
+	<string name="item_home">Zuhause</string>
+    <string name="item_one">Profil</string>
+    <string name="item_two">Rides</string>
+    <string name="item_three">Cab Geld</string>
+    <string name="item_four">Preisliste</string>
+    <string name="item_five">Hilfe</string>
+    <string name="item_six">austragen</string>
+    <string name="item_seven">Siehe weiter</string>
+    
+    
+    <!--   Slide Menu Row desc  -->
+    <string name="item_dhome">Buchen Sie Ihre Kabine</string>
+    <string name="item_done">Anzeigen und Bearbeiten von Profil</string>
+    <string name="item_dtwo">Verfolgen Sie Ihre Fahrten</string>
+    <string name="item_dthree">Überprüfen Sie Ihr Guthaben</string>
+    <string name="item_dfour">Kennen Sie die Kosten</string>
+    <string name="item_dfive">Geben Sie uns einen Shout</string>
+    <string name="item_dsix">austragen</string>
+    <string name="item_dseven">Verbreiten Sie die Liebe</string>
+
+    <!-- Miscellaneous Strings -->
+    
+    <string name="menubutton">wenn</string>
+    <string name="datetimepickerstring">Wählen Abholzeit</string>
+    <string name="cab_details_progress_text">Getting Your Cab Einzelheiten .......</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="title_activity_main">Push-Benachrichtigungen</string>
+    <string name="error_config">Bitte stellen Sie die% 1 $ s konstant und kompilieren Sie die App.</string>
+    <string name="already_registered">Das Gerät ist bereits auf dem Server registriert.</string>
+    <string name="gcm_registered">Von GCM: Gerät erfolgreich registriert!</string>
+    <string name="gcm_unregistered">Von GCM: Gerät erfolgreich aufgehoben!</string>
+    <string name="gcm_message">Von GCM: du Nachricht!</string>
+    <string name="gcm_error">Von GCM: Fehler (% 1 $ s).</string>
+    <string name="gcm_recoverable_error">Von GCM: behebbarer Fehler (% 1 $ s).</string>
+    <string name="gcm_deleted">Von GCM: Server gelöscht% 1 $ d anstehenden Nachrichten!</string>
+    <string name="server_registering">Der Versuch (Versuch %1$d/%2$d) Gerät auf Demo-Server registrieren.</string>
+    <string name="server_registered">Von Demo Server: Gerät erfolgreich hinzugefügt!</string>
+    <string name="server_unregistered">Von Demo Server: Gerät erfolgreich entfernt!</string>
+    <string name="server_register_error">Konnte nicht registriert Gerät Demo Server nach% 1 $ d Versuche.</string>
+    <string name="server_unregister_error">Konnte nicht aus der Registrierung Gerät Demo Server (% 1 $ s).</string>
+    <string name="options_register">Registrieren</string>
+    <string name="options_unregister">Heben Sie die Registrierung</string>
+    <string name="options_clear">klar</string>
+    <string name="options_exit">Ausgang</string>
+    <string name="header_name"> Buchen Sie Ihre Kabine</string>
+    <string name="quit">Beenden bestätigen ...</string>
+    <string name="really_quit">Sind Sie sicher, dass Sie wirklich beenden?</string>
+    <string name="yes">JA</string>
+    <string name="no">UNTERLASSEN SIE</string>
+    <string name="ok">ok</string>
+    <string name="password">Passwort</string>
+    <string name="takepicture">Nehmen Profilbild</string>
+    <string name="selectpicture">Wählen Profilbild</string>
+    <string name="update">Aktualisierung</string>
+    <string name="male">männlich</string>
+    <string name="cabtype">Kabinenart</string>
+    <string name="apiversionerror">Sie Android Version doesnt Spiel Mindestanforderung</string>
+    <string name="messagedialogtitle">Note</string>
+    <string name="messagedialogmessage">Ihr erhalten Sie eine Bestätigung Anruf shortly..Please Klicken Sie auf Taste bestätigen nach Anruf, diese Fahrt buchen</string>
+    <string name="customername">Passenger Name;:</string>
+    <string name="customercontact">Telefonnummer:</string>
+    <string name="please_wait">Warten Sie Mal ......</string>
+    <string name="refer_content">Verwenden Sie meine RideAway Promo-Code, xyzz, und erhalten Sie $ 10 ir 20 $ des ersten RideAway Fahrt Reedeem es RideAway.com/invite/xyzz</string>
+	<string name="Refer_friend">Artikel weiterempfehlen</string>
+	<string name="marker_text">Sie Sind Hier</string>
+	<string name="set">einstellen</string>
+	<string name="status">Status: </string>
+	<string name="available">verfügbar</string>
+	<string name="passenger_details">Passagier-Details</string>
+	<string name="pickup_location">Pick up location:</string>
+	<string name="dropoff_location">Rückgabestation:</string>
+	<string name="pickup_time">Pick Up Time:</string>
+	<string name="pickup_date">Übernahme:</string>
+	<string name="username_hint">Username (E-Mail)</string>
+	<string name="forgot_password">Passwort Vergessen?</string>
+	<string name="or">oder</string>
+	<string name="register_me">Registrieren Me></string>
+	<string name="current_location">Aufenthaltsort</string>
+	<string name="destination">Reiseziel</string>
+	<string name="distance">Abstand:</string>
+	<string name="permile">Per Mile:</string>
+	<string name="driver_name">Fahrer Name:</string>
+	<string name="contact">Kontakt No:</string>
+	<string name="cab_num">Cab No:</string>
+	<string name="my_location">Mein Standort</string>
+	<string name="name">Name</string>
+	<string name="signout">austragen</string>
+	<string name="cab_reach_time">Cab Reichweite Zeit:</string>
+	<string name="project_id">266 958 144 282</string>
+	
+	
+	<!-- String for Refer  -->
+	<string name="spread">Verbreiten Sie die Liebe</string>
+	<string name="love">Liebe unser Service? Freunde einladen</string>
+	
+	<!-- Strings for Dialog -->
+	<string name="gpsdisabledtitle">Kein Standort Zugriff !!</string>
+	<string name="gpsdisabledmessage">Bitte erlauben Sie buchen Ihr Taxi zu Ihrem Standort. Schalten Sie es ein von Location Services</string>
+	<string name="gpsposbutton">Einstellungen</string>
+	<string name="gpsnegativebutton">Unterlassen Sie</string>
+	<string name="blank"></string>
+
+	
+	<!-- Strings for Internet -->
+	<string name="internetdisabledtitle">Kein Internet</string>
+	<string name="internetdisabledmessage">Sie scheinen nicht mit dem Internet verbunden werden. einschalten</string>
+	<string name="internetpositive">W-LAN</string>
+	<string name="internetnegative">Handy data</string>
+	<string name="refertitle">Einladung wurde versendet</string>
+	<string name="refermessage">Sie friends.invite erfolgreich eingeladen haben</string>
+	<string  name="refermessagecontinue"> mehr Freunde, um Belohnungen zu erhalten</string>
+	<string name="refersuccessmessage"> Sie Freunden.Sie erfolgreich eingeladen haben, werden belohnt Coupon Ihre registrierte E-Mail-ID in Kürze erhalten.</string>
+	<string name="get_d_status_dialog">Wie Sie Ihre aktuellen Stand</string>
+	<string name="sharegplus">Teilen Sie auf Google+</string>
+</resources>
